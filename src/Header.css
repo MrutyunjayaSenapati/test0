@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #232c3d;
+  color: #fff;
+  padding: 20px 32px;
+  border-bottom: 1px solid #2e3951;
+  position: sticky;
+  top: 0;
+  z-index: 90;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header-search {
+  background: #1a2233;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+}
+.header-center {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #bfc9da;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header-avatar {
+  font-size: 2rem;
+  color: #4f8cff;
+}
+.header-username {
+  font-size: 1rem;
+  color: #fff;
+  margin-right: 1rem;
+}
+.header-icon {
+  font-size: 1.2rem;
+  color: #bfc9da;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.header-icon:hover {
+  color: #4f8cff;
+}
+.header-github-star {
+  color: #ffe066;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+.header-logout-btn {
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 8px 16px;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.header-logout-btn:hover {
+  background: red;
+} 
